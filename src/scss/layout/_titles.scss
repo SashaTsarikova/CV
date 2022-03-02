@@ -1,0 +1,53 @@
+@use 'sass:color';
+
+h1{
+  font-size: 3.2rem;
+  line-height: calc(3.2rem + 4px);
+  letter-spacing: 0.3vmin;
+
+  color: color.scale($main-brigt-color, $lightness: -25%);
+
+  padding-bottom: 0.5rem;
+}
+
+h2{
+  font-size: 1.6rem;
+  line-height: calc(1.6rem + 4px);
+  letter-spacing: 0.3vmin;
+
+  color: color.scale($main-brigt-color, $lightness: -25%);
+}
+
+h3{
+  font-size: 1.6rem;
+  line-height: calc(1.6rem + 4px);
+  letter-spacing: 0.3vmin;
+  text-transform: uppercase;
+
+  color: color.scale($sec-brigt-color, $lightness: -25%);
+}
+
+.big-title{
+  font-size: 2rem;
+  line-height: calc(2.1rem + 4px);
+  letter-spacing: 0.2vmin;
+}
+
+a{
+  color: color.scale($main-brigt-color, $lightness: -25%);
+  line-height: calc(1.5rem + 4px);
+  vertical-align: middle
+}
+
+.main-title{
+  font-size: 1.3rem;
+  line-height: calc(1.4rem + 4px);
+  letter-spacing: 0.2vmin;
+}
+
+.main-title-underline{
+  color: color.scale($main-brigt-color, $lightness: -25%);
+  font-size: 1.4rem;
+  line-height: calc(1.5rem + 4px);
+  letter-spacing: 0.5vmin;
+}
