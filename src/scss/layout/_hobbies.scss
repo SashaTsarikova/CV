@@ -1,0 +1,47 @@
+.hobbies{
+  .content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .hobbies-img{
+      width: 30vmin;
+      height: 30vmin;
+      border-radius: 50%;
+      
+      &.sport{
+        background: url('../assets/sport.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.humor{
+        background: url('../assets/humor.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    a{
+      width: 30vmin;
+      .music{
+        width: 100%;
+        background: url('../assets/music.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 10vmin;
+          height: 10vmin;
+    
+          transition: all .2s ease-in-out;
+        }
+        &:hover{
+          transform: scale(1.05);
+        }
+        &:active{
+          transform: scale(.95);
+        }
+      }
+    }
+  }
+}

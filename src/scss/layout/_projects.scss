@@ -1,0 +1,48 @@
+.projects-item{
+  width: 100%;
+  display: flex;
+  .projects-descriprion{
+    width: 45%;
+  }
+  transition: all .2s ease-in-out;
+  a{
+    width: 50%;
+    padding-bottom: 2vmin;
+    .projects-img{
+      height: 15vw;
+      border-radius: 10%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 5vw;
+        height: 5vw;
+  
+        transition: all .2s ease-in-out;
+      }
+      &.momentum{
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/momentus.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &.lang{
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/RSLang.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &.christmas{
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/tree.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &:hover{
+        transform: scale(1.05);
+      }
+      &:active{
+        transform: scale(.95);
+      }
+    }
+  }
+
+}

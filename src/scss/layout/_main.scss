@@ -15,10 +15,10 @@ main{
       background-color: $main-light-color;
     }
     .title-container{
-      width: 15%;
+      width: 12%;
     }
     .content-container{
-      width: 75%;
+      width: 78%;
       ul{
         border-left: 1vmin solid $sec-dark-color;
         margin-left: 5vmin;
@@ -38,8 +38,25 @@ main{
       left: 50%;
       z-index: 10;
       transform: translate(-50%, 50%);
-      
     }
+   
+  }
+   &:last-child{
+    .container::after{
+      border-top: none;
+    }
+  }
+}
+
+footer{
+  background-color: $main-light-color;
+  .footer-container{
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

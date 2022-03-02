@@ -4,4 +4,15 @@
     justify-content: space-between;
     padding: 5vmin 2vmin;
   }
+  .soft-skills-container{
+    padding: 5vmin 0 0 2vmin;
+    .soft-one{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .name-skill{
+        width: 30%;
+      }
+    }
+  }
 }
