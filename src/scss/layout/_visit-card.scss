@@ -101,6 +101,13 @@
           }
         } 
       }
+      &.right{
+        animation: none;
+      }  
+      &.left{
+        transform: scale(1.2);
+        animation: none;
+      }
     }
   }
 }
