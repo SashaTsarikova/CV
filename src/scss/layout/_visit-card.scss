@@ -34,6 +34,7 @@
       }
     }
     .text-part{
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -63,10 +64,30 @@
     }
     &.right{
       transform: rotateY(30deg)  rotateZ(5deg) scale(1.6);
+       animation: move .8s ease-in-out;
     }  
     &.left{
       transform: scale(1.2);
-    } 
+      animation: move2 .8s ease-in-out;
+    }
+    
+    @keyframes move {
+      from {
+        transform: rotateY(100deg)  rotateZ(0deg) scale(1);
+      }
+      to {
+        transform: rotateY(30deg)  rotateZ(5deg) scale(1.6);
+      }
+    }
+
+    @keyframes move2 {
+      from {
+        transform: rotateY(0deg) scale(1);
+      }
+      to {
+        transform: rotateY(0deg) scale(1.2);
+      }
+    }
   }
 }
 

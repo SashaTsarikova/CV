@@ -1,2 +1,4 @@
 import './scss/main.scss';
-// import 'bootstrap';
+import textInsertion from './scripts/styleFromTB';
+
+textInsertion();

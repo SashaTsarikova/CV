@@ -8,6 +8,7 @@ h1{
   color: color.scale($main-brigt-color, $lightness: -25%);
 
   padding-bottom: 0.5rem;
+  z-index: 10;
 }
 
 h2{
@@ -37,6 +38,13 @@ a{
   color: color.scale($main-brigt-color, $lightness: -25%);
   line-height: calc(1.5rem + 4px);
   vertical-align: middle
+}
+a:hover{
+  transform: scale(1.05);
+}
+
+a:active{
+  transform: scale(.95);
 }
 
 .main-title{
