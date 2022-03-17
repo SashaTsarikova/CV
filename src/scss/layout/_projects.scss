@@ -22,17 +22,17 @@
         transition: all .2s ease-in-out;
       }
       &.momentum{
-        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/momentus.png');
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/momentus.webp');
         background-repeat: no-repeat;
         background-size: cover;
       }
       &.lang{
-        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/RSLang.png');
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/RSLang.webp');
         background-repeat: no-repeat;
         background-size: cover;
       }
       &.christmas{
-        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/tree.png');
+        background: linear-gradient(rgba($sec-light-color,0.5),  rgba($sec-light-color,0.5)), url('../assets/projects/tree.webp');
         background-repeat: no-repeat;
         background-size: cover;
       }

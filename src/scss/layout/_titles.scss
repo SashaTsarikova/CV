@@ -47,6 +47,14 @@ a:active{
   transform: scale(.95);
 }
 
+a.normal:hover{
+  transform: none;
+}
+
+a.normal:active{
+  transform: none;
+}
+
 .main-title{
   font-size: 1.3rem;
   line-height: calc(1.4rem + 4px);

@@ -1,20 +1,13 @@
-//  700 300 400
 html, a{
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: $main-2dark-color;
 
   font-size: calc($main-f-size + 1vh);
   line-height: calc($main-f-size + 1px + 1.1vh);
   letter-spacing: 0.3vmin;
-}
 
-@media (max-width: 1400px) {
-
-}
-
-@media (max-width: 1200px) {
-
+  font-display: swap;
 }
 
 @media (max-width: 992px) {
@@ -25,24 +18,4 @@ html, a{
   a{
     font-size: calc($bigger-f-size + 1vh);
   }
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) {
-
-}
-
-@media (orientation: portrait) and (max-width: 992px) {
-
-}
-
-@media (orientation: portrait) and (max-width: 768px) {
-
-}
-
-@media (orientation: portrait) and (max-width: 576px) {
-
 }
