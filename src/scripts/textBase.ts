@@ -37,7 +37,7 @@ const textBaseEng: ItextBase = {
   ],
   softSkills: {
     'communication skills': 'I like to communicate with people. I have the ability to talk, speak, convince and explain.',
-    'research skills': "I can't work without analises of projects I involved in, so I always on the way of serching of comparativly better solotion",
+    'research skills': "I can't work without analyses of projects I involved in, so I always on the way of searching of comparatively better solution",
     responsibility: 'An integral trait of every professional is his ability to make decisions and take responsibility for them. I definitely have this trait.',
     'teamwork ability': "I'm ensure that a team could do more then a single person. I worked as a part of team on RSLang project (placed bellow)",
   },
